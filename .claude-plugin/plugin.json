@@ -1,0 +1,12 @@
+{
+  "name": "complexity-awareness",
+  "version": "0.1.0",
+  "description": "Lightweight sensitivities for handling complex (not just complicated) coding tasks: terrain recognition, drift detection, and strategic variety on friction.",
+  "author": {
+    "name": "Albert Orlando",
+    "email": "albertjorlando@gmail.com"
+  },
+  "homepage": "https://github.com/albeorla/complexity-awareness",
+  "repository": "https://github.com/albeorla/complexity-awareness",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "complexity-awareness",
+  "owner": {
+    "name": "Albert Orlando",
+    "email": "albertjorlando@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "complexity-awareness",
+      "source": "./",
+      "description": "Lightweight sensitivities for handling complex (not just complicated) coding tasks."
+    }
+  ]
+}
