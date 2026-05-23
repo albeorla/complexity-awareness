@@ -1,6 +1,6 @@
 ---
 name: second-opinion
-description: Invoke when the main agent has tried multiple strategies on a problem and is still stuck, or when the main agent's reasoning chain has accumulated enough assumptions that a fresh look would help. The fresh context is the point — this agent should not be briefed extensively on what's been tried, only on what the actual current problem is.
+description: Invoke only after the `stuck-recovery` skill has already been loaded and at least one deliberate strategy switch has also failed, or after three or more distinct hypotheses have been tested against the same symptom without resolution. The fresh context is the point — this agent should not be briefed extensively on what's been tried, only on what the actual current problem is. Do not invoke for code review, design feedback, validating a working solution, or as a reflexive "second pair of eyes" on a normal PR.
 tools: Read, Grep, Glob, Bash
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: complex-task-mode
-description: Use when a coding task shows complexity markers — debugging an unfamiliar system, refactoring across many files in a codebase whose conventions you don't yet understand, designing a feature where constraints are still being discovered, or any task where your mental model has been wrong more than once. Do not use for well-scoped tasks with a clear right answer (typical bug fixes, isolated feature additions, well-defined refactors). The signal is "the system keeps surprising me" or "I'm not sure I'm even working on the right thing."
+description: Use when a coding task has already shown complexity markers in this session — your initial hypothesis about the system has been wrong at least once, test failures or runtime behavior have surprised you, the same fix has been re-attempted with variations, or you've realized the user's framing of the problem may itself be approximate. Do not use on first contact with unfamiliar code, do not use because a task touches many files, and do not use for well-scoped tasks with a clear right answer (typical bug fixes, isolated feature additions, well-defined refactors). The trigger is observed surprise, not novelty. The signal is "the system keeps surprising me" or "I'm not sure I'm even working on the right thing."
 ---
 
 # Complex-task mode

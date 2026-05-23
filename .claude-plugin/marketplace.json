@@ -1,5 +1,6 @@
 {
   "name": "complexity-awareness",
+  "description": "Single-plugin marketplace hosting the complexity-awareness plugin.",
   "owner": {
     "name": "Albert Orlando",
     "email": "albertjorlando@gmail.com"
